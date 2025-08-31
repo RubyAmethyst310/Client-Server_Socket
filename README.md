@@ -53,21 +53,22 @@ On the server machine, open **Command Prompt** and run:
   ipconfig
   ```
 Copy the IPv4 Address to use in the client setup.
-2. Run the Server
+
+### 2. Run the Server
 Open the server solution file (.sln) in Visual Studio.
 Compile and run the server executable.
-3. Run the Client
+
+### 3. Run the Client
 Open the client solution file (.sln) in Visual Studio.
 Enter the server’s IPv4 address when prompted.
 Compile and run the client executable.
-4. Request Files
+
+### 4. Request Files
 Open input.txt in the client folder.
 Add filenames to request (one filename per line).
 Ensure there is an output folder in the client directory to store downloaded files.
-5. Download and Exit
+
+### 5. Download and Exit
 The client will automatically download listed files.
 Progress will be displayed in the console.
 To exit, press Ctrl+C.
-On the server machine, open **Command Prompt** and run:
-```bash
-ipconfig
